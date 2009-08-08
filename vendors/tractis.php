@@ -1,4 +1,19 @@
 <?php
+/** 
+ * tractis.php
+ *
+ * A CakePHP Component that will login the Auth session with Tractis. 
+ *
+ * Copyright 2009, Javier Maties - www.javiermaties.com
+ * Licensed under The MIT License - Modification, Redistribution allowed but must retain the above copyright notice
+ * @link 		http://www.opensource.org/licenses/mit-license.php
+ *
+ * @package	Tractis
+ * @created	Aug 8, 2009
+ * @version 	0.2
+ * @link	http://github.com/jmaties/CakePHP-Tractis/tree/master
+ * @changelog	http://www.javiermaties.com/sipuedo/2009/08/07/tractis-identity-verifications-con-el-componente-auth-de-cakephp/ 
+ */
 /* Constantes */
 define('API_KEY', '676e36f302f87bcbbd0da2a88238b8cdf082ed6f');
 //define('URL_OK', 'http://admin.javiermaties.com/users/tractis');
