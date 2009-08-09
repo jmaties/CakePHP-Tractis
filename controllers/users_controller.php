@@ -28,19 +28,6 @@ function tractis()
         $this->redirect($this->Auth->logout());
     }
 	
-	 private function __randomString($minlength = 20, $maxlength = 20, $useupper = true, $usespecial = false, $usenumbers = true){
-        $charset = "abcdefghijklmnopqrstuvwxyz";
-        if ($useupper) $charset .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        if ($usenumbers) $charset .= "0123456789";
-        if ($usespecial) $charset .= "~@#$%^*()_+-={}|][";
-        if ($minlength > $maxlength) $length = mt_rand ($maxlength, $minlength);
-        else $length = mt_rand ($minlength, $maxlength);
-        $key = '';
-        for ($i=0; $i<$length; $i++){
-            $key .= $charset[(mt_rand(0,(strlen($charset)-1)))];
-        }
-        return $key;
-    }
 	
 	function beforeFilter() 
 	{
