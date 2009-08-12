@@ -1,0 +1,13 @@
+CakePHP-Tractis
+
+Componente para conectar/autorizar un usuario a traves de certificados digitales o DNIe usando para ello Tractis (http://tractis.com), una plataforma web que permite integrar la autenticación con certificados de forma sencilla y rápida.
+
+Versiones
+ 0.3 - Cambios en el componente, ahora es realmente uno y para evitar confusiones se ha renombrado a TractisLogin, ahora toda la autenticacion se realiza en el.
+	UsersControllers
+		function tractis()
+			    {
+		
+			    }
+
+	
